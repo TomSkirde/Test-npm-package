@@ -1,0 +1,27 @@
+{
+  "name": "test-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TomSkirde/Test-npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/TomSkirde/Test-npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomSkirde/Test-npm-package.git"
+  },
+  "license": "MIT",
+  "author": "tom skirde",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "rollup": "^4.17.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.5"
+  }
+}
