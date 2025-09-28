@@ -10,6 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/TomSkirde/Test-npm-package.git"
   },
+  "exports": {
+  "import": {                    
+    "default": "./lib/index.esm.js",  
+    "types": "./lib/types/index.d.ts"  
+  },
+  "require": {                   
+    "default": "./lib/index.cjs",     
+    "types": "./lib/types/index.d.ts"  
+  }
+},
   "license": "MIT",
   "author": "tom skirde",
   "type": "module",
