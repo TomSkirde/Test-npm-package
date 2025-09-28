@@ -20,6 +20,9 @@
     "types": "./lib/types/index.d.ts"  
   }
 },
+"files": [
+    "lib"
+  ],
   "license": "MIT",
   "author": "tom skirde",
   "type": "module",
